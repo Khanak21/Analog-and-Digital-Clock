@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0px;
+    padding:0px;
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+        .clock{
+            background-color: #85FFBD;
+            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+            top:0px;
+            left:0px;
+            position: relative;
+
+        }
+        .clock{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            width:100%;
+
+        }
+        .clock-outline{
+            border:10px solid black;
+            height:500px;
+            width:500px;
+            position:relative;
+            border-radius:50%;
+            background-color: white;
+
+        }
+        .point{
+            height:20px;
+            width:20px;
+            background-color: rgb(253, 4, 4);
+            border-radius: 50%;
+            position:absolute;
+            top:240px;
+            left:240px;
+            
+        }
+        .hr{
+            position:absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size:xx-large;
+        }
+        .twel{
+            top:10px;
+            left:230px;
+        }
+        .three{
+            top:235px;
+            right:10px;
+        }
+        .nine{
+            top:235px;
+            left:10px;
+        }
+        .six{
+            bottom:10px;
+            left:240px;
+        }
+        .one{
+            top:40px;
+            right:130px;
+        }
+        .two{
+            top:125px;
+            right:45px;
+        }
+        .four{
+            bottom:125px;
+            right:45px;
+        }
+        .five{
+            bottom:40px;
+            right:130px;
+        }
+        .sev{
+            bottom:40px;
+            left:130px;
+        }
+        .eig{
+            bottom:125px;
+            left:45px;
+        }
+        .ten{
+            top:125px;
+            left:45px;
+        }
+        .ele{
+            top:40px;
+            left:130px;
+        }
+        .minute-wrapper{
+            height:500px;
+            width:10px;
+    
+            left:245px;
+        
+            position:absolute;
+
+        }
+        .hour-wrapper{
+            height:500px;
+            width:20px;
+    
+            left:240px;
+        
+            position:absolute;
+        }
+        .second-wrapper{
+            height:500px;
+            width:3px;
+            left:246px;
+
+            position:absolute;
+
+        }
+        .minute-hand{
+            height:250px;
+            width:10px;
+            background-color: black;
+            left:0px;
+            top:30px;
+            position:absolute;
+            z-index:2;
+
+        }
+        .hour-hand{
+            height:180px;
+            width:20px;
+            background-color: black;
+            
+            top:100px;
+            position:absolute;
+            z-index:3;
+        }
+        .second-hand{
+            height:200px;
+            width:3px;
+            background-color: rgb(5, 5, 5);
+            /* box-shadow:1px 1px 2px rgb(120, 12, 12); */
+        
+            top:70px;
+            position:absolute;
+            z-index: 2;
+
+        }
+        .digital{
+            display:flex;
+            border:2px solid black;
+            position:absolute;
+            top:4em;
+            left:5em;
+            font-size:xx-large;
+        }
